@@ -1,0 +1,28 @@
+.wrapper{
+    float: left;
+    width: 15%;
+    height: 100vh;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+}
+
+.link{
+    /* width: 100%; */
+    display: flex;
+    grid-gap: 15px;
+    padding: 10px 10px 10px 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 30px;
+    transition: all 0.15s linear;
+}
+.link:hover{
+    background: rgb(238, 238, 238);
+}
+.active{
+    font-weight: 700;
+    background: rgb(238, 238, 238);
+}

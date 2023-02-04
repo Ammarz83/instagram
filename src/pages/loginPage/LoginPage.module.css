@@ -1,0 +1,59 @@
+label{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+Input{
+    width: 350px;
+    height: 30px;
+    background-color: lightgray;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+.loginPart{
+    border: 1px solid black;
+    margin-right: 450px;
+    margin-left: 450px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+.accForgot{
+    border: 1px solid black;
+    margin-right: 400px;
+    margin-left: 400px;
+    background-color: white;
+}
+.btnLogin{
+    background-color: blue;
+    width: 355px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.buttons{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
+
+}
+.btn{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.loginPage{
+    background-color: lightgray ;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
