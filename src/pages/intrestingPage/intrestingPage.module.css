@@ -1,0 +1,14 @@
+.vids{
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px;
+    background-color: white;
+}
+.vidsAlign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    background-color: lightgrey;
+}

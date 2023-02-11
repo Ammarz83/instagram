@@ -1,0 +1,12 @@
+.storyPic{
+    width: 60px;
+    height: 60px;
+}
+.storyUser{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+}

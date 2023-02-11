@@ -8,3 +8,52 @@
     width: 100%;
     border-radius: 5px;
 }
+.profilePicOfPost{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.comments{
+    border: 1px solid black;
+}
+.postImg{
+    width: 650px;
+    height: 650px;
+    
+}
+.leftPartOfPost{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.textOfPost{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.onePost{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.boldPart{
+    font-weight: 700
+}
+.threeDot{
+    width: 30px;
+    height: 30px;
+}
+.heart, .comment, .send, .save{
+    
+    width: 30px;
+    height: 30px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.leftPartOfIcon{
+    display: flex;
+    grid-gap: 20px;
+}

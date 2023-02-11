@@ -15,13 +15,16 @@ const CustomLink = (props) => {
     
 
     return (
+        
         <Link className={`${css.link} ${location.pathname === props.to ? css.active : ''}`} to={props.to}>
+            
             <img
                 width='20px'
                 src={props.icon} 
                 alt={'Home'}/>
                 {props.title}
         </Link>
+        
     )
 }
 
@@ -32,7 +35,9 @@ function Sidebar() {
     <CustomLink key={el.title} {...el} />))
 
     return (
+        
         <aside className={css.wrapper}>
+            <h1 className={css.instagram}>Instagram</h1>
             {render}
         </aside>
     )

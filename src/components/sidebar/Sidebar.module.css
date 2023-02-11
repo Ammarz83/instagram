@@ -1,14 +1,19 @@
 .wrapper{
     float: left;
     width: 15%;
-    height: 100vh;
+    height: 9600px;
     background-color: #fff;
     padding: 20px;
     display: flex;
     flex-direction: column;
     grid-gap: 20px;
 }
-
+.instagram{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-family: monospace;
+}
 .link{
     /* width: 100%; */
     display: flex;

@@ -18,6 +18,7 @@ import CreatePage from './pages/createPage/CreatePage';
 import ProfilePage from './pages/profilePage/ProfilePage';
 
 
+
 function App() {
   const [isAuth, setAuth] = useState(true)
   return (    
@@ -29,6 +30,7 @@ function App() {
           <HomePage />
         </PrivateRoute>} />
         <Route path='/search' element={<SearchPage />} />
+        <Route path='/post/:id' element={<h1>hello post</h1>} />
         <Route path='/intresting' element={<IntrestingPage />} />
         <Route path='/reels' element={<ReelsPage />} />
         <Route path='/chat' element={<MessagePage />} />

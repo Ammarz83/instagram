@@ -1,0 +1,22 @@
+
+.yourFol{
+    color: grey;
+
+}
+.leftRecomPart{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+.profilePic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
